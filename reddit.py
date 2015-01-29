@@ -1,5 +1,5 @@
 import  praw
-import time
+import datetime
 r = praw.reddit(user_agent = "grammar nazi reddit")
 r.login()
 print ("Loggin in ... ")
