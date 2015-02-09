@@ -12,6 +12,6 @@ def check_profanitiy(text_tocheck):
 	 connection = urllib.urlopen("http://www.wdyl.com/profanity?q=shot")
 	 print(output)
 	 connection.close()
-
+l
 
 read_text() 
